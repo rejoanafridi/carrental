@@ -933,7 +933,7 @@ table thead th, table thead td {
 	2.1 Navigation & Dropdown Menu 
 ------------------------------------------*/
 #navigation_bar {
-  background: #111111 none repeat scroll 0 0;
+  background: #da0000 none repeat scroll 0 0;
   border-radius: 0;
   padding: 0;
 }
@@ -1064,7 +1064,7 @@ nav.navbar {
 	3.1. Banner
 -------------------------------*/
 .banner-section {
-  background-image: url("../images/banner-image.jpg");
+  background-image: url("../images/banner-car-img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1234,6 +1234,7 @@ nav.navbar {
   background: #ffffff none repeat scroll 0 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-top: 40px;
+  border-radius:10px;
 }
 .car-info-box { position:relative;}
 .car-info-box ul {
@@ -1243,6 +1244,9 @@ nav.navbar {
   padding: 0 15px;
   position: absolute;
   width: 100%;
+}
+.car-info-box > a > img{
+  border-radius: 10px;
 }
 .car-info-box li {
   color: #ffffff;
