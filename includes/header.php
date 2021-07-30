@@ -56,6 +56,8 @@ echo "Welcome To Car rental portal";
         <div class="user_login">
           <ul>
             <li class="dropdown"> <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle" aria-hidden="true"></i> 
+
+<!-- Login code for backend -->
 <?php 
 $email=$_SESSION['login'];
 $sql ="SELECT FullName FROM tblusers WHERE EmailId=:email ";

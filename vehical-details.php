@@ -163,6 +163,7 @@ $_SESSION['brndid']=$result->bid;
             </li>
           </ul>
         </div>
+  <!----- Vehicle overview -------->
         <div class="listing_more_info">
           <div class="listing_detail_wrap"> 
             <!-- Nav tabs -->
